@@ -47,3 +47,16 @@ p{
     font-size: 4em;
     color: var(--bg-btn);
 }
+
+.primary-dark{
+    color: var(--primary-dark);
+}
+
+.secondary-dark{
+    color: var(--secondary-dark);
+}
+
+.bg-light{
+    background-color: var(--bg-light);
+    box-shadow: 1px 5px 20px rgba(55, 65, 81, 0.1);
+}
