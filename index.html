@@ -4,41 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Who's the GOAT?</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Modes</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
     <div class="container">
         <h1 class="text-center primary-dark">Who's The GOAT?</h1>
         <span class="secondary-dark">Who is the Greatest Of All Time?</span>
+        <br>
 
         <input type="checkbox" id="mode">
         <div class="grid">
-            <div class="item-bg-light">
+            <div class="item bg-light">
                 <div class="flex">
                     <div class="icon">
-                        <span class="material-icons"><img src="img/ronaldo.png" alt="Cristiano Ronaldo"></span>
-                        <h2 class="primary-dark">Cristiano Ronaldo</h2>
-                        <p class="secondary-dark">Achievements</p>
+                        <span class="player"><img src="img/ronaldo.png" alt="Ronaldo-icon" width="120" height="120"></span>
                     </div>
+                    <h2 class="primary-dark">Cristiano Ronaldo</h2>
+                    <p class="secondary-dark text-center">Goals : 813 <br> Assists : 231
+                    </p>
+                </div>
+            </div>
+            <div class="item bg-light">
+                <div class="flex">
+                    <div class="icon">
+                        <span class="player"><img src="img/messi.png" alt="Messi-icon" width="120" height="120"></span>
+                    </div>
+                    <h2 class="primary-dark">Lionel Messi</h2>
+                    <p class="secondary-dark text-center">Goals : 764 <br> Assists : 328
+                    </p>
                 </div>
             </div>
         </div>
 
-        <div class="grid">
-            <div class="item-bg-light">
-                <div class="flex">
-                    <div class="icon">
-                        <span class="material-icons"><img src="img/messi.png" alt="Lionel Messi"></span>
-                        <h2 class="primary-dark">Lionel Messi</h2>
-                        <p class="secondary-dark">Achievements</p>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
+
+    <script src="./index.js"></script>
 </body>
 </html>
